@@ -6,7 +6,7 @@
             <ContentDoc>
                 <template v-slot="{ doc }">
                     <article>
-                        <h1 class="text-2xl">{{ doc.title }}</h1>
+                        <h1 class="text-2xl product-name">{{ doc.title }}</h1>
                         <ContentRenderer :value="doc" />
                     </article>
                 </template>
