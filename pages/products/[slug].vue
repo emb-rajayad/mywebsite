@@ -2,7 +2,7 @@
     <div>
     <AppHeader />
     <UContainer>
-        <main class="conatiner mx-auto p-4">
+        <main class="conatiner mx-auto p-4 product-detail">
             <ContentDoc>
                 <template v-slot="{ doc }">
                     <article>

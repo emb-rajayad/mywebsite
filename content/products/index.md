@@ -7,7 +7,7 @@ slug: "products"
 
 <div class="product-container">
   <div class="product-item">
-    <a href="/products/watche"><img src="/images/wrist-watches.jpg" alt="Watch 1" class="product-image" /></a>
+    <a href="/products/watches"><img src="/images/wrist-watches.jpg" alt="Watch 1" class="product-image" /></a>
     <div class="product-details">
       <h2 class="product-name"><a href="/products/watches">Watches</a></h2>
       <p class="product-price">$100</p>
