@@ -24,7 +24,7 @@ const url = '/products/'
                 </template>
             </ContentDoc>
            
-            <h3 class="gap-4"><strong>Party product List</strong></h3>
+            <h3 class="grid grid-cols-5 gap-4"><strong>Third Party product List</strong></h3>
             <div v-if="status === 'pending'">
             Loading ...
             </div>
