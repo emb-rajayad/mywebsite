@@ -1,14 +1,14 @@
 ---
-title: "Personal Wbsite"
+title: "Personal Website"
 description: "This is my personal website descriptions"
 tags: ["Nuxt js", "Ui", "Content modules"]
 slug: "/"
 ---
 
 
-## **Welcome to Personal Wbsite!**
+## **Welcome to Personal Website!**
 
-At Personal Wbsite, we're passionate about providing high-quality products that enhance your everyday life. Whether you're here for the latest fashion trends, unique home décor, or innovative gadgets, you'll find a curated selection that speaks to both style and functionality. Our mission is to make shopping an enjoyable and hassle-free experience by offering products that are both affordable and exceptional in quality.**
+At Personal Website, we're passionate about providing high-quality products that enhance your everyday life. Whether you're here for the latest fashion trends, unique home décor, or innovative gadgets, you'll find a curated selection that speaks to both style and functionality. Our mission is to make shopping an enjoyable and hassle-free experience by offering products that are both affordable and exceptional in quality.**
 
 ## **Discover Our Collection**
 
