@@ -8,7 +8,7 @@
             <li><NuxtLink to="/about-us">About us </NuxtLink></li>
             <li><NuxtLink to="/contact">Contact</NuxtLink></li>
            </ul>
-        Copyright © 2024-present my personal website, Inc. All rights reserved.
+        <div class="gap-4 copyright">Copyright © 2024-present my personal website, Inc. All rights reserved.</div>
     </div>
     </div>
 </template>
