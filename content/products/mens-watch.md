@@ -1,6 +1,6 @@
 ---
 title: Mens Watch
-slug: watchesmens-watch
+slug: mens-watch
 ---
 
 ![Product 2 Image](/images/mens-watch-and-ring.jpg)

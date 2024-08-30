@@ -32,7 +32,12 @@
 .router-link-exact-active{
   color:#12b488;
 }
+.left-content{float: left;}
+.footer{width: 100%; float: left;}
 .copyright{text-align: center;}
+.bootom-container .wishlist, .bootom-container button {
+  float: left;
+}
 @media screen and (min-width: 800px) {
 .desktop .relative, .product-detail img{height: 500px !important;}
 }

@@ -1,6 +1,5 @@
 <script setup lang="ts">
 const route = useRoute();
-console.log(route.params.id);
 /* only pick the fields used in your template */
 const { status, data: product } = await useFetch('https://fakestoreapi.com/products/' + route.params.slug,
     {
@@ -8,7 +7,12 @@ const { status, data: product } = await useFetch('https://fakestoreapi.com/produ
             'description',
             'image',
             'price']
-    })
+    });
+    useHead({
+  title: product.value.title
+})
+
+
 </script>
 <template>
     <div>
@@ -27,12 +31,17 @@ const { status, data: product } = await useFetch('https://fakestoreapi.com/produ
                     </template>
                 </ContentDoc>
                 <div v-if="product.image" class="addtional-product">
-                    <img class="h-auto self-center" :src="product.image" alt="" />
-                    <h1 class="text-2xl product-name">{{ product.title }}</h1>
+                    <div class="w-1/2 left-content ">
+                        <img class="h-auto self-center" :src="product.image" alt="" />
+                    </div>
+                    <div class="w-1/2 left-content">
+                        <h1 class="text-2xl product-name">{{ product.title }}</h1>
                     <p><strong>Price: </strong> {{ product.price }}</p>
                     <p>{{ product.description }}</p>
-
+                    </div>
                 </div>
+
+                
             </main>
         </UContainer>
         <AppFooter />

@@ -17,12 +17,12 @@ const validate = (state: any): FormError[] => {
   return errors
 }
 
-async function onSubmit (event: FormSubmitEvent<any>) {
+async function onSubmit(event: FormSubmitEvent<any>) {
   // Do something with data
   console.log(event.data)
 }
 
-async function onError (event: FormErrorEvent) {
+async function onError(event: FormErrorEvent) {
   const element = document.getElementById(event.errors[0].id)
   element?.focus()
   element?.scrollIntoView({ behavior: 'smooth', block: 'center' })
@@ -31,22 +31,22 @@ async function onError (event: FormErrorEvent) {
 <template>
   <div class="flex flex-col  items-center">
     <UForm :validate="validate" :state="state" class="space-y-4 text-white" @submit="onSubmit" @error="onError">
-    <UFormGroup label="Name" name="name">
-      <UInput v-model="state.name" />
+      <UFormGroup label="Name" name="name">
+        <UInput v-model="state.name" />
       </UFormGroup>
       <UFormGroup label="Email" name="email">
-      <UInput v-model="state.email"  placeholder="you@example.com" icon="i-heroicons-envelope" />
+        <UInput v-model="state.email" placeholder="you@example.com" icon="i-heroicons-envelope" />
       </UFormGroup>
 
       <UFormGroup label="Mobile" name="mobile">
-      <UInput v-model="state.mobile" />
+        <UInput v-model="state.mobile" />
       </UFormGroup>
       <UFormGroup name="comment" label="Comment">
-      <UTextarea v-model="state.comment" />
-    </UFormGroup>
+        <UTextarea v-model="state.comment" />
+      </UFormGroup>
       <UButton type="submit">
-      Submit
+        Submit
       </UButton>
-  </UForm>
+    </UForm>
   </div>
-  </template>
+</template>
